@@ -1,0 +1,28 @@
+:root {
+  --background-color-main: rgb(51, 51, 51);
+  --text-color-main: rgb(214, 214, 214);
+  --text-filter:invert(0);
+  --width-logo: 50vmin;
+}
+.App {
+  background:url("/public/img/stars.svg") no-repeat center;
+  animation: fadeIn 2s;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text-color-main);
+}
+
+.App-link {
+  color: #61dafb;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

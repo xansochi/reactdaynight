@@ -1,0 +1,66 @@
+.tracers {
+    width: 50vmin;
+    height: 50vmin;
+    position: relative;
+    perspective: 50000px;
+    color: #00c2f8;
+  }
+  .tracers span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 18.4%;
+    height: 18.4%;
+    border-radius: 100%;
+    background: #79e2ff;
+    transition: .7s;
+  }
+  .tracers div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-left: 1vmin solid;
+    border-top: 1vmin solid transparent;
+    border-radius: 100%;
+  }
+  .tracers div:nth-child(1) {
+    animation: anim-1 1s linear infinite;
+  }
+  .tracers div:nth-child(2) {
+    animation: anim-2 1s linear infinite;
+  }
+  .tracers div:nth-child(3) {
+    animation: anim-3 1s linear infinite;
+  }
+  @keyframes anim-1 {
+    from {
+      transform: rotateZ(120deg) rotateX(66deg) rotateZ(0deg);
+   }
+    to {
+      transform: rotateZ(120deg) rotateX(66deg) rotateZ(360deg);
+   }
+  }
+  @keyframes anim-2 {
+    from {
+      transform: rotateZ(240deg) rotateX(66deg) rotateZ(0deg);
+   }
+    to {
+      transform: rotateZ(240deg) rotateX(66deg) rotateZ(360deg);
+   }
+  }
+  @keyframes anim-3 {
+    from {
+      transform: rotateZ(360deg) rotateX(66deg) rotateZ(0deg);
+   }
+    to {
+      transform: rotateZ(360deg) rotateX(66deg) rotateZ(360deg);
+   }
+  }
+
+
+  @media only screen 
+  and (max-width : 500px) {
+   
+}
