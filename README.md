@@ -17,4 +17,4 @@ Install my-project with npm
 ```
 ## Screenshots
 
-![](http://magic.visualchill.ru/img/dark-min.gif)
+![](<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />)
