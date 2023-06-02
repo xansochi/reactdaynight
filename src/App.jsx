@@ -6,10 +6,10 @@ import Reactlogo from './animation/reactlogo/reactlogo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <content className="App-header">
         <Reactlogo />
         <StateButton />
-      </header>
+      </content>
     </div>
   );
 }
