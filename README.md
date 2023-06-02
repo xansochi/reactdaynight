@@ -17,4 +17,4 @@ Install my-project with npm
 ```
 ## Screenshots
 
-![App Screenshot](http://magic.visualchill.ru/img/dark-min.gif)
+![App Screenshot](https://magic.visualchill.ru/img/dark-min.gif)
