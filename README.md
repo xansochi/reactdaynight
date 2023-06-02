@@ -17,4 +17,4 @@ Install my-project with npm
 ```
 ## Screenshots
 
-<img src="dark-min.gif" width="854" height="480" />
+<img src="dark-min.gif" width="480" height="850" />
